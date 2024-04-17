@@ -1,0 +1,48 @@
+.fullDisplay {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../assets/img.png");
+  background-size: cover;
+
+  display: flex;
+}
+
+.wrapper {
+  background-color: black;
+  border-radius: 1em;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+button {
+  width: 3em;
+  height: 3em;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 2em;
+  margin: 0.3em;
+}
+button:hover {
+  cursor: pointer;
+}
+.zero {
+  width: 6.5em;
+}
+.operater {
+  background-color: #ff0095;
+  color: white;
+}
+.number {
+  background-color: #585858;
+  color: white;
+}
+.result {
+  color: white;
+  display: flex;
+  justify-content: right;
+  margin-right: 0.5em;
+  font-size: 3em;
+}
+.display {
+  background-color: #585858;
+}
